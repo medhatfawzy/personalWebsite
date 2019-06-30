@@ -1,0 +1,221 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.social {
+  top: 0px;
+  background-color: #05A8AA;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.social li{
+  display: inline-block;
+  padding:7px 0px;
+}
+.social ul li:after{
+  content: " | ";
+}
+.social ul :last-child:after{
+  content: "";
+}
+.social li a{
+  color: lightCyan;
+  text-decoration: none;
+}
+
+.social li>a:hover{
+  color: black;
+  border-bottom: 3px solid lightCyan;
+  margin-bottom: 5px;
+}
+
+.social ul{
+  padding-left: 15px;
+}
+
+.social p{
+  display: inline;
+  padding: 0;
+}
+
+.btn img{
+  background-color: lightcyan;
+  border-radius: 100%;
+  padding: 5px;
+  margin: 3px;
+  float: right;
+ }
+
+.btn img:hover {
+  padding: 7px;
+}
+
+ .cover h1{
+   z-index: -1;
+   top: 200px;
+   position: fixed;
+   font-size: 100px;
+   text-align: center;
+   padding: 20px;
+   color: lightcyan;
+   font-weight: 300;
+   border: 5px solid #05A8AA;
+   margin: 0px 300px 260px 300px;
+   background: rgba(0, 0, 0, 0.7);
+}
+
+ .cover h1:hover {
+   color: #05A8AA;
+   background: rgba(0, 0, 0, 0.93);
+}
+
+#myImg {
+  margin: 45px 20px ;
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #05A8AA;
+  float:right;
+}
+
+#myImg:hover {
+  background-color: white;
+}
+span{
+  color:#05A8AA;
+}
+.texture {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom: 2px solid black;
+  margin: 900px auto auto auto;
+  width: 90%;
+}
+
+.texture p {
+  padding: 150px 20px 150px 20px;
+  font-size: 45px;
+  font-weight: 200;
+}
+
+.secTexture {
+  background-color: rgba(255, 255, 255, 0.95);
+  margin: auto;
+  padding: 75px 0px 75px 30px;
+  width: 90%;
+}
+
+.secTexture h1 {
+  margin-right: 40px;
+  font-size: 60px;
+  font-weight: 100;
+  display: inline-block;
+}
+
+.secTexture ul {
+  display: inline-grid;
+}
+
+.secTexture li {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.pageEnd p {
+  background-color: #05A8AA;
+  width: 100%;
+  font-weight: 300;
+  font-size: 20px;
+  font-style: oblique;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.tableContent {
+  padding: 75px 50px 50px 50px;
+}
+
+.tableContent table {
+  padding:20px;
+  width: 100%;
+}
+
+.tableContent thead {
+    background-color: cyan;
+}
+
+.tableContent tbody {
+  background-color: #05A8AA;
+}
+
+.tableContent td {
+    padding: 50px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 19px;
+}
+
+.tableContent h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #FFF;
+  font-size: 50px;
+}
+
+.lec {
+  background-color: lightblue;
+}
+
+.myVideos p{
+  text-align: center;
+  margin: 10px 20px 50px 20px;
+}
+.myVideos h1{
+  padding: 80px 10px 30px 10px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 50px;
+  text-align: center;
+  color: #FFF;
+}
+.myVideos h3{
+  padding: 0px 0px 0px 70px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 30px;
+  color: #FFF;
+  text-align: left;
+}
+.myAudios p{
+  text-align: center;
+  margin: 10px 20px 50px 20px;
+}
+
+.myAudios h1{
+  padding: 80px 10px 30px 10px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 50px;
+  color: #FFF;
+  text-align: center;
+}
+.myAudios h3{
+  padding: 0px 0px 0px 270px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 30px;
+  color: #FFF;
+  text-align: left;
+}
